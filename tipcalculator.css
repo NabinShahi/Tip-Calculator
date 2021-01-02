@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: purple;
+}
+
+form{
+	background-color: skyblue;
+	border: 5px solid black;
+	border-radius: 10px;
+	border-style: none;
+	height: 70vh;
+	width: 50vh;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+
+#billamount, #tippercent, #tipamount, #totalamount{
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 300px;
+	font-size: 1.5rem;
+}
+
+#button{
+	height: 35px;
+	width: 100px;
+	margin-top: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 1rem;
+}
